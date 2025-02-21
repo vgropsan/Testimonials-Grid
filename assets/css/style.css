@@ -1,132 +1,159 @@
-:root{
-  /* Primary Colors Settings*/
-  --Purple50:hsl(260, 100%, 95%);
-  --Purple300:hsl(264, 82%, 80%);
-  --Purple500:hsl(263, 55%, 52%);
-  /* Neutral Colors Settings*/
-  --White:hsl(0, 0%, 100%);
-  --Grey100:hsl(214, 17%, 92%);
-  --Grey200:hsl(0, 0%, 81%);
-  --Grey400:hsl(224, 10%, 45%);
-  --Grey500:hsl(217, 19%, 35%);
-  --DarkBlue:hsl(219, 29%, 14%);
-  --Black:hsl(0, 0%, 7%);
+:root {
+  /* Primary Colors Settings */
+  --Purple50: hsl(260, 100%, 95%);
+  --Purple300: hsl(264, 82%, 80%);
+  --Purple500: hsl(263, 55%, 52%);
+  /* Neutral Colors Settings */
+  --White: hsl(0, 0%, 100%);
+  --Grey100: hsl(214, 17%, 92%);
+  --Grey200: hsl(0, 0%, 81%);
+  --Grey400: hsl(224, 10%, 45%);
+  --Grey500: hsl(217, 19%, 35%);
+  --DarkBlue: hsl(219, 29%, 14%);
+  --Black: hsl(0, 0%, 7%);
   /* Project Font Size Settings */
-  --fontSize:13px;
-  --fontFamily:"Barlow Semi Condensed", serif;
-}
-main{
-  font-family: var(--fontFamily);
-  font-style: normal;
-  font-size: var(--fontSize);
-  color: var(--White);
-}
-.mainCard{
-  padding: 3vh;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 2vh;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-  width: 45vh;
-  box-shadow: 25px 32px 64px -37px rgba(0,0,0,0.75);
-}
-.mainCardInfo{
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.cardUser {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  margin-bottom: 3vh;
-}
-.cardUserImage {
-  width: 6vh;
-  height: 6vh;
-  border-radius: 50%;
-}
-.cardUserName{
-  font-weight: 600;
-}
-.cardUserVerify{
-  font-weight: 500;
-}
-.cardUserName, .cardUserVerify {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 3vh;
-}
-.cardContentInfo{
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 3vh;
-}
-.card1 {
-  background-color: var(--Purple500);
-}
-.card2{
-  background-color: var(--Grey500);
-}
-.card3, .card5{
-  background-color: white;
-  color: var(--Black);
-}
-.card4{
-  background-color: var(--DarkBlue);
+  --fontSize: 13px;
+  --fontFamily: "Barlow Semi Condensed", serif;
 }
 
-@media (min-Width:768px){
-  body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+/* Main container styles */
+main {
+  font-family: var(--fontFamily); /* Font family */
+  font-style: normal; /* Font style */
+  font-size: var(--fontSize); /* Font size */
+  color: var(--White); /* Text color */
+}
+
+/* Main card styles */
+.mainCard {
+  padding: 3vh; /* Padding */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+  border-radius: 2vh; /* Border radius */
+  margin-top: 2vh; /* Top margin */
+  margin-bottom: 2vh; /* Bottom margin */
+  width: 45vh; /* Width */
+  box-shadow: 25px 32px 64px -37px rgba(0, 0, 0, 0.75); /* Box shadow */
+}
+
+/* Main card info container styles */
+.mainCardInfo {
+  display: flex; /* Flexbox layout */
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align items to start */
+  flex-direction: column; /* Column layout */
+}
+
+/* Card user container styles */
+.cardUser {
+  display: flex; /* Flexbox layout */
+  flex-direction: row; /* Row layout */
+  justify-content: flex-end; /* Align items to end */
+  align-items: center; /* Center vertically */
+  margin-bottom: 3vh; /* Bottom margin */
+}
+
+/* Card user image styles */
+.cardUserImage {
+  width: 6vh; /* Width */
+  height: 6vh; /* Height */
+  border-radius: 50%; /* Circular image */
+}
+
+/* Card user name styles */
+.cardUserName {
+  font-weight: 600; /* Font weight */
+}
+
+/* Card user verification status styles */
+.cardUserVerify {
+  font-weight: 500; /* Font weight */
+}
+
+/* Card user name and verification status common styles */
+.cardUserName, .cardUserVerify {
+  margin-top: 0; /* Top margin */
+  margin-bottom: 0; /* Bottom margin */
+  margin-left: 3vh; /* Left margin */
+}
+
+/* Card content info styles */
+.cardContentInfo {
+  font-size: 20px; /* Font size */
+  font-weight: 600; /* Font weight */
+  margin-bottom: 3vh; /* Bottom margin */
+}
+
+/* Card 1 specific styles */
+.card1 {
+  background-color: var(--Purple500); /* Background color */
+}
+
+/* Card 2 specific styles */
+.card2 {
+  background-color: var(--Grey500); /* Background color */
+}
+
+/* Card 3 and 5 common styles */
+.card3, .card5 {
+  background-color: var(--White); /* Background color */
+  color: var(--Black); /* Text color */
+}
+
+/* Card 4 specific styles */
+.card4 {
+  background-color: var(--DarkBlue); /* Background color */
+}
+
+/* Media query for screens wider than 768px */
+@media (min-width: 768px) {
+  body {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Column layout */
   }
-  main{
-    width: 75%;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,1fr);
-    
+  main {
+    width: 75%; /* Width */
+    height: auto; /* Auto height */
+    display: grid; /* Grid layout */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
   }
-  .card1/*Daniel*/{
-    width: 95%;
-    height: auto;
-    grid-column: 1/3;
-    gap: 2vh;
-    background-image: url(../images/bg-pattern-quotation.svg);
-    background-repeat: no-repeat;
-    background-position-x: 80%;
+  .card1 /* Daniel */ {
+    width: 95%; /* Width */
+    height: auto; /* Auto height */
+    grid-column: 1 / 3; /* Grid column span */
+    gap: 2vh; /* Gap */
+    background-image: url(../images/bg-pattern-quotation.svg); /* Background image */
+    background-repeat: no-repeat; /* No repeat */
+    background-position-x: 80%; /* Background position */
   }
-  .card2/*Jonathan*/{
-    grid-column: 3/4;
-    width: 95%;
-    gap: 2vh;
+  .card2 /* Jonathan */ {
+    grid-column: 3 / 4; /* Grid column span */
+    width: 95%; /* Width */
+    gap: 2vh; /* Gap */
   }
-  .card4/*Patrick*/{
-    grid-column: 2/4;
-    grid-row: 2/3;
-    width: 95%;
-    gap: 2vh;
+  .card4 /* Patrick */ {
+    grid-column: 2 / 4; /* Grid column span */
+    grid-row: 2 / 3; /* Grid row span */
+    width: 95%; /* Width */
+    gap: 2vh; /* Gap */
   }
-  .card3/*Janette*/{
-    grid-column: 1/2;
-    grid-row: 2/3;
-    width: 95%;
-    gap: 2vh;
+  .card3 /* Jeanette */ {
+    grid-column: 1 / 2; /* Grid column span */
+    grid-row: 2 / 3; /* Grid row span */
+    width: 95%; /* Width */
+    gap: 2vh; /* Gap */
   }
-  .card5/*Kira*/{
-    width: 95%;
-    grid-column: 4/5;
-    grid-row: 1/3;
-    gap: 2vh;
+  .card5 /* Kira */ {
+    width: 95%; /* Width */
+    grid-column: 4 / 5; /* Grid column span */
+    grid-row: 1 / 3; /* Grid row span */
+    gap: 2vh; /* Gap */
   }
 }
+
 /* Attribution text styles */
 .attribution {
   font-size: 11px; /* Font size */
