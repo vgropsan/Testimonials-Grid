@@ -1,64 +1,64 @@
-# 🌟 Testimonios UI - Diseño Responsivo
+# 🌟 Testimonials UI - Responsive Design
 
-Este proyecto es una interfaz de usuario (UI) para mostrar testimonios de usuarios en un formato atractivo y profesional. La UI está diseñada para ser completamente responsiva, adaptándose perfectamente a diferentes dispositivos, desde escritorio hasta móvil.
+This project is a user interface (UI) to showcase user testimonials in an attractive and professional format. The UI is designed to be fully responsive, adapting perfectly to different devices, from desktop to mobile.
 
-## 📌 Características
+## 📌 Features
 
-✅ **Diseño moderno y atractivo**
-✅ **Totalmente responsivo** (desktop & mobile)
-✅ **Tipografía clara y jerárquica**
-✅ **Colores diferenciados para destacar opiniones clave**
-✅ **Sección de testimonios bien estructurada**
-✅ **Experiencia de usuario fluida y envolvente**
+✅ **Modern and attractive design**
+✅ **Fully responsive** (desktop & mobile)
+✅ **Clear and hierarchical typography**
+✅ **Distinct colors to highlight key opinions**
+✅ **Well-structured testimonials section**
+✅ **Smooth and immersive user experience**
 
-## 📱 Vistas
+## 📱 Views
 
-### 🖥️ Versión de Escritorio
-El diseño en escritorio muestra una distribución en cuadrícula, destacando ciertos testimonios con colores llamativos y diferentes tamaños de tarjeta para enfatizar los más relevantes.
+### 🖥️ Desktop Version
+The desktop design features a grid layout, highlighting certain testimonials with striking colors and different card sizes to emphasize the most relevant ones.
 
-### 📲 Versión Móvil
-En la versión móvil, los testimonios se presentan en un formato de columna vertical, asegurando una lectura fluida y agradable.
+### 📲 Mobile Version
+In the mobile version, testimonials are presented in a vertical column format, ensuring a smooth and pleasant reading experience.
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 
-- **HTML5 & CSS3** para la estructura y estilos
-- **Flexbox & Grid** para el diseño responsivo
-- **JavaScript (opcional)** para animaciones o interactividad adicional
-- **Frameworks CSS (opcional)** como TailwindCSS o Bootstrap para mejorar la eficiencia
+- **HTML5 & CSS3** for structure and styles
+- **Flexbox & Grid** for responsive design
+- **JavaScript (optional)** for animations or additional interactivity
+- **CSS Frameworks (optional)** like TailwindCSS or Bootstrap to enhance efficiency
 
-## 🎨 Guía de Estilo
+## 🎨 Style Guide
 
-- **Colores:** Tonos vibrantes y neutros para resaltar el contenido clave
-- **Tipografía:** Fuentes limpias y legibles con énfasis en testimonios clave
-- **Espaciado:** Diseño aireado con suficiente separación para mejorar la experiencia de lectura
+- **Colors:** Vibrant and neutral tones to highlight key content
+- **Typography:** Clean and readable fonts with emphasis on key testimonials
+- **Spacing:** Airy design with sufficient separation to improve reading experience
 
-## 📦 Instalación y Uso
+## 📦 Installation and Usage
 
-Si deseas utilizar o modificar esta UI en tu proyecto, sigue estos pasos:
+If you want to use or modify this UI in your project, follow these steps:
 
-1. Clona este repositorio:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/vgropsa/testimonios-ui.git
+   git clone https://github.com/vgropsan/testimonials-ui.git
    ```
-2. Accede a la carpeta del proyecto:
+2. Access the project folder:
    ```bash
-   cd testimonios-ui
+   cd testimonials-ui
    ```
-3. Abre el archivo `index.html` en tu navegador.
+3. Open the `index.html` file in your browser.
 
-## 🚀 Personalización
+## 🚀 Customization
 
-Puedes personalizar esta UI cambiando los colores, tipografía o incluso la distribución de los testimonios en el archivo CSS. Si utilizas un framework como TailwindCSS, puedes modificar las clases directamente en el HTML.
+You can customize this UI by changing the colors, typography, or even the layout of the testimonials in the CSS file. If you are using a framework like TailwindCSS, you can modify the classes directly in the HTML.
 
-## 💡 Contribuciones
+## 💡 Contributions
 
-Si tienes ideas para mejorar esta UI, ¡tus contribuciones son bienvenidas! Puedes hacer un fork del repositorio y enviar un pull request con tus mejoras.
+If you have ideas to improve this UI, your contributions are welcome! You can fork the repository and submit a pull request with your enhancements.
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto está bajo la licencia MIT, lo que significa que puedes usarlo y modificarlo libremente.
+This project is licensed under the MIT License, which means you can use and modify it freely.
 
 ---
 
-📩 **Contacto:** Si tienes preguntas o sugerencias, no dudes en contactarme.
+📩 **Contact:** If you have any questions or suggestions, feel free to contact me.
 
